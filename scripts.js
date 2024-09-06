@@ -51,7 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
             saveTasks(); // Save updated tasks to local storage
         });
 
-        // Append elements to the list item
         li.appendChild(checkbox);
         li.appendChild(label);
         li.appendChild(button);
@@ -82,15 +81,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Show popup on first visit
-    if (!localStorage.getItem('hasVisited')) {
-        overlay.style.display = 'block';
-        popup.style.display = 'block';
-        localStorage.setItem('hasVisited', 'true');
-    }
+    //if (!localStorage.getItem('hasVisited')) {
+    //   overlay.style.display = 'block';
+    //   popup.style.display = 'block';
+    //  localStorage.setItem('hasVisited', 'true');
+    //}
 
     // Close popup when the button is clicked
-    closePopupButton.addEventListener('click', () => {
-        overlay.style.display = 'none';
-        popup.style.display = 'none';
-    });
-});
+    //closePopupButton.addEventListener('click', () => {
+     //   overlay.style.display = 'none';
+       // popup.style.display = 'none';
+    //});
+//});
