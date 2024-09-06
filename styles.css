@@ -3,8 +3,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #286fcaa1;
 
+    
 }
 
+/*
 .overlay{
     display: none;
     position: fixed;
@@ -66,6 +68,8 @@ body {
     align-self: center;
     margin-top: 0rem;
 }
+
+*/
 
 #taskList {
     margin-top: 20px;
